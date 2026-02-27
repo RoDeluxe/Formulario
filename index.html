@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formularios</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="icon" href="img/Icon.png">
+    </head>
+    
+    <body>
+
+        <h1>FORMULARIO DE ADMISIÓN</h1>
+
+        <p>Bienvenido al Proceso de admisión.</p>
+
+        <p>Datos personales</p>
+
+        <form action="index.html" method="post">
+
+            <label for="NombreApellido">Nombre Y Apellido:</label>
+            <input type="text" id="NombreApellido" name="NombreApellido" required><br><br>
+
+            <label for="FechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="FechaNacimiento" name="FechaNacimiento" required><br><br>
+            
+            <label for="Sexo">Sexo:</label><br>
+            <input type="radio" id="Masculino" name="Sexo" value="Masculino" required>
+            <label for="Masculino">Masculino</label><br>   
+            <input type="radio" id="Femenino" name="Sexo" value="Femenino" required>
+            <label for="Femenino">Femenino</label><br>  
+
+            <label for="Numero">Numero de telefono:</label>
+            <input type="number" id="Numero" name="Numero" required><br><br>
+
+            <label for="Direccion">Direccion:</label>
+            <input type="text" id="Direccion" name="Direccion" required><br><br>
+
+            <label for="Ciudad">Ciudad:</label>
+            <input type="text" id="Ciudad" name="Ciudad" required><br>
+
+            <label for="Region">Region:</label>
+            <input type="text" id="Region" name="Region" required><br><br>
+
+            <label for="CodigoPostal">Codigo Postal:</label>
+            <input type="number" id="CodigoPostal" name="CodigoPostal" required><br><br>
+
+            <label for="Pais">Pais:</label>
+            <input type="text" id="Pais" name="Pais" required><br><br>
+
+            <label for="Correo">Correo Electronico:</label>
+            <input type="email" id="Correo" name="Correo" required><br><br>
+
+
+            <p>Comprueba que todos los campos estén correctamente llenados antes de enviar.</p>
+
+
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </body>            
+</html>
